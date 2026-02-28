@@ -454,7 +454,7 @@ fun GameplaySettingsGroup() {
             labelSuffix = "x",
             range = 25..100,
             scale = 100,
-            step = 1,
+            step = 5,
         ) {
             SettingsCard(
                 title = stringResource(R.string.preference_screen_zoom_fit_name),
